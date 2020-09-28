@@ -1,5 +1,5 @@
 export default {
-  API_ENDPOINT: "https://localhost:8000/",
-  // API_ENDPOINT: process.env.API_ENDPOINT,
-  API_KEY: process.env.API_KEY,
+  // API_ENDPOINT: "http://localhost:8000",
+  API_ENDPOINT: `https://rebecca-noteful-app.herokuapp.com/`,
+  TOKEN_KEY: process.env.REACT_APP_API_KEY,
 };
